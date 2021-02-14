@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body {
+	color: #343434;
+	font-size: 14px;
+}
+
+#wrap > * {
+	padding: 0 40px;
+}
+
+/* header */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 120px;
+	border-bottom: 1px solid currentColor;
+}
+
+header .gnb ul,
+header .gnb li {
+	display: inline-block;
+}
+
+header li a {
+	padding: 5 10px;
+}
+
+header .gnb_user li {
+	background: #eeeeee;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+
+header .gnb_user li:hover {
+	background: #dddddd;
+}
+
+/* content */
+#container {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.content_title {
+	margin-bottom: 20px;
+}
